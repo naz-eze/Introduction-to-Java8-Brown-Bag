@@ -15,3 +15,7 @@ compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.3'
 compile group: 'org.spockframework', name: 'spock-core', version: '1.0-groovy-2.4'
 
 }
+
+task wrapper(type: Wrapper) {
+	gradleVersion = 2.10
+}
